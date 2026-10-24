@@ -1,0 +1,6 @@
+# Server dependencies. torch is installed separately in the Dockerfile from the
+# CUDA 12.6 wheel index (it is not on this list on purpose).
+fastapi==0.116.1
+pydantic==2.11.7
+uvicorn[standard]==0.35.0
+transformers==4.57.6
